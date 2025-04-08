@@ -3,6 +3,7 @@
 # Output: 9
 # Explanation: Given date is the 9th day of the year in 2019.
 
+
 class Solution:  
     def dayOfYear(self, date: str) -> int:  
         year, month, day = map(int, date.split('-'))  
