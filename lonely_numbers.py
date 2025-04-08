@@ -1,3 +1,9 @@
+# Find all the lonely numbers in an integer array.
+# A number is called lonely if it appears only once in the array and its adjacent numbers (x + 1 and x - 1) do not exist in the array.
+# The task is to return all lonely numbers in the array. The result can be returned in any order.
+# Input: nums = [10,6,5,8]
+# Output: [10,8]
+
 from typing import List
 
 class Solution:
@@ -17,9 +23,10 @@ class Solution:
 
         return lonely_numbers
 
+
 sol = Solution()
 result1 = sol.findLonely([10, 6, 5, 8])
 result2 = sol.findLonely([1, 3, 5, 3])
 
-print(result1)  # Kết quả có thể là [10, 8]
-print(result2)  # Kết quả có thể là [1, 5]
+print(result1) 
+print(result2)
